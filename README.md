@@ -14,8 +14,8 @@ this file is the following:
 
 ```bash
 $ cat src/config.mk
-CC_AUX     := gcc-13.3.0
-CFLAGS_AUX := -Wall -Wextra -Wpedantic -std=c17
+CC_AUX     := gcc-14.2.0
+CFLAGS_AUX := -Wall -Wextra -Wpedantic -std=c23
 ```
 
 ### The files in this repository were tested with:
@@ -23,8 +23,8 @@ CFLAGS_AUX := -Wall -Wextra -Wpedantic -std=c17
 * C files
 
     ```bash
-    $ gcc-13.3.0 --version
-    gcc-13.3.0 (GCC) gcc-13.3.0
+    $ gcc-14.2.0 --version
+    gcc-14.2.0 (GCC) gcc-14.2.0
     ```
 
 * Frama-C files
