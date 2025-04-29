@@ -14,7 +14,7 @@ this file is the following:
 
 ```bash
 $ cat src/config.mk
-CC_AUX     := gcc-14.2.0
+CC_AUX     := gcc-15.1.0
 CFLAGS_AUX := -Wall -Wextra -Wpedantic -std=c23
 ```
 
@@ -23,8 +23,8 @@ CFLAGS_AUX := -Wall -Wextra -Wpedantic -std=c23
 * C files
 
     ```bash
-    $ gcc-14.2.0 --version
-    gcc-14.2.0 (GCC) gcc-14.2.0
+    $ gcc-15.1.0 --version
+    gcc-15.1.0 (GCC) gcc-15.1.0
     ```
 
 * Frama-C files
