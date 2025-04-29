@@ -17,10 +17,10 @@ CFLAGS := $(CFLAGS_AUX)
 endif
 
 glibc-abs : glibc-abs.c
-	${CC} ${CFLAGS} $< -o $@
+	${CC} ${CFLAGS} -o $@ $<
 
 ghs-abs : ghc-abs.hs
-	ghc -Wall $< -o $@
+	ghc -Wall -Werror -o $@ $<
 
 clean very-clean :
 	find . -type f -executable -delete
