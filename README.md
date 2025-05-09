@@ -1,4 +1,4 @@
-## Source Code for the Course [SI1001 Theory of Computation](https://asr.github.io/cursos/si1001-teoria-de-la-computacion/index.html/ndex.html)
+## Source Code for the Course [SI1001 Theory of Computation](https://asr.github.io/cursos/si1001-teoria-de-la-computacion/index.html)
 
 * You can clone this repository by running
 
